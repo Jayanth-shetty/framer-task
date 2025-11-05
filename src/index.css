@@ -309,20 +309,6 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  animation: slide-up-fade-in 0.8s ease-in 0s 1 normal forwards;
-}
-
-@keyframes slide-up-fade-in {
-  0% {
-    transform: translate(0,80%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translate(0,10%);
-    opacity: 1;
-  }
 }
 
 .modal h2 {
