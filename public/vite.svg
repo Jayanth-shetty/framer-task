@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 250" width="100%" height="auto" role="img" aria-label="Challenges Icon">
+  <defs>
+    <!-- Blue to purple gradient (similar to Vite style) -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#41D1FF"/>
+      <stop offset="100%" stop-color="#BD34FE"/>
+    </linearGradient>
+    <!-- Yellow to orange gradient for trophy cup -->
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEA83"/>
+      <stop offset="8%" stop-color="#FFDD35"/>
+      <stop offset="100%" stop-color="#FFA800"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background shape (shield/badge) -->
+  <path fill="url(#grad1)" d="M128 8c66.3 0 120 53.7 120 120s-53.7 120-120 120S8 194.3 8 128 61.7 8 12 2z"/>
+
+  <!-- Trophy cup -->
+  <path fill="url(#grad2)" d="M96 64h64v38c0 17.7-14.3 32-32 32s-32-14.3-32-32V64z"/>
+  
+  <!-- Trophy base -->
+  <rect x="103" y="158" width="50" height="26" rx="6" fill="#FFA800"/>
+
+  <!-- Handles -->
+  <path fill="#FFDD35" d="M80 72h-8c-4.4 0-8 3.6-8 8v19c0 15.5 12.5 28 28 28v-12c-8.8 0-16-7.2-16-16v-8h4V72zm96 0h8c4.4 0 8 3.6 8 8v18c0 15.5-12.5 28-28 28v-12c8.8 0 16-7.2 16-16v-8h-4V72z"/>
+
+  <!-- Star on trophy -->
+  <path fill="#e6aed7ff" d="M128 84l5.2 10.6 11.8 1.7-8.5 8.3 2 11.7L128 110l-10.5 5.3 2-11.7-8.5-8.3 11.8-1.7L128 84z"/>
+</svg>
