@@ -1,5 +1,5 @@
 import { createPortal } from "react-dom";
-import { motion } from "framer-motion";
+import {motion } from "framer-motion";
 
 export default function Modal({ title, children, onClose }) {
   return createPortal(
@@ -8,8 +8,10 @@ export default function Modal({ title, children, onClose }) {
       <motion.dialog
       variants={{
         hidden:{ opacity: 0, y: 40 },
-        visible:{ opacity: 1, y: 0 }
+        visible:{ opacity: 1, y: 0 },
+        exit:{opacity:1,scale:1,}
       }}
+      transition={{ duration: 0.3 }}
         initial="hidden"
         animate="visible"
         exit="hidden"
