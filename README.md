@@ -2,6 +2,9 @@
 
 A modern, animated task manager built with **React** and **Framer Motion**. Track your tasks by adding, completing or marking them as failed—with smooth animations and component reusability built in.
 
+## live Demo
+ (https://framer-task.web.app)
+
 ## 🎯 Features
 
 - Add new tasks with ease  
